@@ -11,16 +11,16 @@
     right: 0px;
     top: -100px; }
   100% {
-    right: calc(100% + 400px);
-    top: calc(100% + 100px); } }
+    right: calc(150% + 240px);
+    top: calc(90% + -100px); } }
 
 @keyframes starAnimation3of4 {
   0% {
     right: 0px;
     top: -100px; }
   100% {
-    right: calc(100% + -200px);
-    top: calc(100% + 100px); } }
+    right: calc(85% + -450px);
+    top: calc(100% + 203px); } }
 
 body {
   background-color: black;
