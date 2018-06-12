@@ -1,0 +1,14 @@
+{
+  "name": "darksideofthemoon",
+  "version": "1.0.0",
+  "description": "dark side album cover",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

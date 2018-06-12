@@ -1,0 +1,105 @@
+@keyframes starAnimation1of4 {
+  0% {
+    right: 0px;
+    top: -100px; }
+  100% {
+    right: calc(100% + 100px);
+    top: calc(100% + 100px); } }
+
+@keyframes starAnimation2of4 {
+  0% {
+    right: 0px;
+    top: -100px; }
+  100% {
+    right: calc(100% + 400px);
+    top: calc(100% + 100px); } }
+
+@keyframes starAnimation3of4 {
+  0% {
+    right: 0px;
+    top: -100px; }
+  100% {
+    right: calc(100% + -200px);
+    top: calc(100% + 100px); } }
+
+body {
+  background-color: black;
+  height: 100vh; }
+
+.p {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  position: fixed;
+  transform: skewY(-40deg) rotateY(180deg);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.p-top {
+  animation-name: starAnimation2of4; }
+
+.p-middle {
+  animation-name: starAnimation1of4; }
+
+.p-bottom {
+  animation-name: starAnimation3of4; }
+
+.p::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100px;
+  right: 1px;
+  top: 0px;
+  height: 1px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.4) 100%); }
+
+.p-1 {
+  animation-duration: 2.1s; }
+
+.p-2 {
+  animation-duration: 3.4s;
+  top: 60%; }
+
+.p-3 {
+  animation-duration: 3s;
+  top: 90%; }
+
+.p-4 {
+  top: 77%;
+  animation-duration: 2s; }
+
+.p-5 {
+  top: 88%;
+  animation-duration: 2.4s; }
+
+.p-6 {
+  top: 120%;
+  animation-duration: 2s; }
+
+.p-7 {
+  top: 0%;
+  animation-duration: 2.6s; }
+
+.p-8 {
+  top: 22%;
+  animation-duration: 2.8s; }
+
+.p-9 {
+  top: 44%;
+  animation-duration: 1.8s; }
+
+.p-10 {
+  top: 38%;
+  animation-duration: 2.3s; }
+
+.p-11 {
+  top: 70%;
+  animation-duration: 3.2s; }
+
+.p-12 {
+  top: 88%;
+  animation-duration: 2.8s; }
