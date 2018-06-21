@@ -1,0 +1,35 @@
+.triangle-container{
+    position: absolute; 
+}
+
+.triangle-line{
+    position: relative;
+    width: 489px;
+    height: 152px;
+    background-image: -webkit-linear-gradient(top, white -170%, transparent 100%);
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 2px;
+    -moz-background-size: 100% 20px;
+    background-size: 100% 30px;
+    border-radius: 5px;
+}
+
+.line1{
+    top: 250px;
+    transform: rotate(60deg);
+    left: 450px;
+}
+
+.line2{
+    top: 200px;
+    transform: rotate(180deg);
+    left: 390px;
+}
+
+.line3{
+    top: -55px;
+    transform: rotate(300deg);
+    left: 330px;
+
+}
