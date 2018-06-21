@@ -123,16 +123,16 @@ body {
   border-radius: 5px; }
 
 .line1 {
-  top: 250px;
+  top: 400px;
   transform: rotate(60deg);
   left: 450px; }
 
 .line2 {
-  top: 200px;
+  top: 350px;
   transform: rotate(180deg);
   left: 390px; }
 
 .line3 {
-  top: -55px;
+  top: 95px;
   transform: rotate(300deg);
   left: 330px; }
