@@ -39,7 +39,8 @@ body {
   position: fixed;
   transform: skewY(-40deg) rotateY(180deg);
   animation-timing-function: linear;
-  animation-iteration-count: infinite; }
+  animation-iteration-count: infinite;
+  z-index: -400; }
 
 .p-top {
   animation-name: starAnimation2of4; }
@@ -161,3 +162,14 @@ body {
     position: absolute;
     top: 272px;
     left: 533px; }
+
+.blackTriangle {
+  background-color: black;
+  position: absolute;
+  height: 430px;
+  width: 500px;
+  left: 390px;
+  top: 160px;
+  z-index: -400;
+  -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  clip-path: polygon(50% 0, 0 100%, 100% 100%); }
