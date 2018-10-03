@@ -1,0 +1,25 @@
+.whiteLine{
+    height: 10px;
+    width: 700px;
+    background-color: white;
+    opacity: .6;
+    position: absolute;
+    top: 400px;
+    left: -140px;
+    transform: rotate(-14deg);
+    
+    
+    &Gradient{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background-image: -webkit-linear-gradient(top, white -170%, transparent 100%);
+        background-position: 0 0, 0 100%;
+        background-repeat: no-repeat;
+        -webkit-background-size: 100% 2px;
+        -moz-background-size: 100% 20px;
+        background-size: 100% 30px;
+        border-radius: 5px;
+        -webkit-clip-path: polygon(175px 251px,385px 107px,300px 50px);
+    }
+}
