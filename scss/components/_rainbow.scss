@@ -1,0 +1,48 @@
+// #fe0000
+// #fd8628
+// #ffff01
+// #67cd00
+// #00ccff
+// #993399
+
+.rainbowContainer{
+
+    position: relative;
+    top: 440px;
+    left: 640px;
+    transform: rotate(14deg);
+    z-index: -290;
+
+}
+
+.rainbowLine{
+
+    height: 15px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.red{
+    background-color: #fe0000;
+}
+
+.orange{
+    background-color: #fd8628;
+}
+
+.yellow{
+    background-color: #ffff01;
+}
+
+.green{
+    background-color: #67cd00;
+}
+
+.blue{
+    background-color: #00ccff;
+}
+
+.purple{
+    background-color: #993399;
+}

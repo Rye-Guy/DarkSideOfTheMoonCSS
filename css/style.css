@@ -29,6 +29,11 @@ body {
   background-color: black;
   height: 100vh; }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden; }
+
 .p {
   position: fixed;
   top: 50px;
@@ -144,7 +149,7 @@ body {
   background-color: white;
   position: absolute;
   top: 400px;
-  left: -140px;
+  left: -153px;
   transform: rotate(-14deg); }
   .whiteLineGradient {
     position: absolute;
@@ -161,15 +166,45 @@ body {
     clip-path: polygon(0 50%, 100% 80%, 100% 23%);
     position: absolute;
     top: 272px;
-    left: 533px; }
+    left: 520px; }
 
 .blackTriangle {
   background-color: black;
   position: absolute;
   height: 430px;
-  width: 500px;
-  left: 390px;
+  width: 506px;
+  left: 387px;
   top: 160px;
-  z-index: -400;
+  z-index: -280;
   -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
   clip-path: polygon(50% 0, 0 100%, 100% 100%); }
+
+.rainbowContainer {
+  position: relative;
+  top: 440px;
+  left: 640px;
+  transform: rotate(14deg);
+  z-index: -290; }
+
+.rainbowLine {
+  height: 15px;
+  width: 100%;
+  overflow: hidden; }
+
+.red {
+  background-color: #fe0000; }
+
+.orange {
+  background-color: #fd8628; }
+
+.yellow {
+  background-color: #ffff01; }
+
+.green {
+  background-color: #67cd00; }
+
+.blue {
+  background-color: #00ccff; }
+
+.purple {
+  background-color: #993399; }
